@@ -9,46 +9,31 @@ body {
        flex-direction: column;
        min-height: 100vh;
 }
+body header nav{width: 100%}
+body header nav ul{
+       width: 100%;
+       justify-content: flex-end;
+}
 
-.logonav {
+.logonav{       
        width: 160px;
        height: 100%;
        display: inline;
        margin: 0%;
-       padding: 0%;
-}
-
-body header {
-       background-color: #05062E;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-}
-
-.nav {
-       display: flex;
-       align-items: center;
-}
-
-.nav-menu {
-       display: flex;
-       list-style: none;
-       justify-content: space-evenly;
-       width: 100%;
-}
-.nav-menu li{padding: 6px;}
-body header nav ul li a {
-       background-color: #AEAEB8;
+       padding: 0%;}
+.hamburguesa{background-color: #AEAEB8;}
+.box{  background-color: #AEAEB8;
        color: #08056E;
        text-decoration: none;
-       padding: 5px;
-       margin: 2px;
-}
-
+       padding: 0px;
+       margin: 2px;}
 .box:hover {  
        transition: 1s;
        transform: scale(1.25);    
 }
+.divbarflex{display: flex;
+            flex-direction: row;
+            justify-content: space-between;}
 
 .toptitulo {
        font-size: 20px;
@@ -150,6 +135,9 @@ footer {
       display: flex;
        justify-content: center;
 }
+.alimenticia{ 
+       width: 100%;
+}
 .iframe{
         margin: 20px;}
 .contactanos{
@@ -171,7 +159,9 @@ footer {
        align-items: center;
        margin: 10px;
 }
-
+.edit{
+       margin: 20px;
+}
 @media only screen and (max-width: 768px) {
        body header {
               flex-direction: column;

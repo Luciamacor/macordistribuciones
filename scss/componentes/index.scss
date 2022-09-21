@@ -1,0 +1,63 @@
+.toptitulo {
+    font-size: 20px;
+    background-color: #25ABB5;
+    text-align: center;
+    padding: 10px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    background-color: #25ABB5;
+    text-align: center;
+    padding: 10px;
+}
+.paralax {
+    background-image: url(./imagenes/bodega.jpg);
+    height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 50px;
+}
+.nuestras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nuestras-imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.nuestrasmarcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.nuestras-imagenes img{width: 200px;}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.productos-imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+ div{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;}
+ img{width: 200px;}
+ }
+}

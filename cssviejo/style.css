@@ -1,0 +1,185 @@
+* {
+       margin: 0%;
+       padding: 0%;
+}
+
+body {
+       font-family: 'Open Sans', sans-serif;
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+}
+body header nav{width: 100%}
+body header nav ul{
+       width: 100%;
+       justify-content: flex-end;
+}
+
+.logonav{       
+       width: 160px;
+       height: 100%;
+       display: inline;
+       margin: 0%;
+       padding: 0%;}
+.hamburguesa{background-color: #AEAEB8;}
+.box{  background-color: #AEAEB8;
+       color: #08056E;
+       text-decoration: none;
+       padding: 0px;
+       margin: 2px;}
+.box:hover {  
+       transition: 1s;
+       transform: scale(1.25);    
+}
+.divbarflex{display: flex;
+            flex-direction: row;
+            justify-content: space-between;}
+
+.toptitulo {
+       font-size: 20px;
+       background-color: #25ABB5;
+       text-align: center;
+       padding: 10px;
+}
+
+.subtitulo {
+       font-size: 20px;
+       background-color: #25ABB5;
+       text-align: center;
+       padding: 10px;
+}
+
+footer {
+       font-size: 20px;
+       background-color: #05062E;
+       color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       margin-top: auto;
+}
+
+.paralax {
+       background-image: url(./imagenes/bodega.jpg);
+       height: 600px;
+
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+
+       margin-bottom: 50px;
+}
+
+.paralax {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+}
+
+
+.nuestras {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+
+.nuestras-imagenes {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin: 30px;
+}
+
+.nuestrasmarcas {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+}
+.nuestras-imagenes img{width: 200px;}
+
+.productos {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+
+.productos-imagenes {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin: 30px;
+}
+.productos-imagenes div{
+       display:flex ;
+       flex-direction: column;
+       align-items: center;
+}
+.productos-imagenes img{width: 200px;}
+.divinstitucional{
+       display: flex;
+       justify-content: center;
+       margin:50px;        flex-wrap: wrap;
+}
+.divinstitucional div{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+
+}
+.divinstitucional div h2{
+      display: flex;
+       justify-content: center;
+}
+.alimenticia{ 
+       width: 100%;
+}
+.iframe{
+        margin: 20px;}
+.contactanos{
+       margin-top: 10px;
+       margin-bottom: 0px;
+       margin-left: 10px;
+       margin-right: 10px;
+          
+}
+.contacto-logos {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       width: 100%;
+}
+.contacto-logos div{
+       display: flex;
+       flex-direction: row; 
+       align-items: center;
+       margin: 10px;
+}
+.edit{
+       margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+       body header {
+              flex-direction: column;
+       }
+       .nav-menu { 
+              display: flex;
+              flex-wrap: wrap;}
+       nav {
+              flex-direction: row;
+              width: 100%;
+       }
+}
+@media only screen and (max-width: 320px){
+      .subtitulo{font-size: medium;}
+      .toptitulo{font-size: medium;}
+      .paralax{height:350px ;}
+      footer{ font-size: medium;}
+      .nuestras-imagenes img{width: 100px;}
+      .productos-imagenes img{width: 100px;}
+      .iframe{}
+}

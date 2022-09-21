@@ -1,0 +1,76 @@
+@import"./base/variables.scss";
+@import"./componentes/global.scss";
+@import"./componentes/index.scss";
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.divinstitucional{
+    display: flex;
+    justify-content: center;
+    margin:50px;        flex-wrap: wrap;
+    div{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        h2{
+            display: flex;
+            justify-content: center;
+    }
+}
+}
+.alimenticia{ 
+    width: 100%;
+}
+.iframe{
+     margin: 20px;}
+.contactanos{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+       
+}
+.contacto-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    div{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        margin: 10px;
+ }
+}
+.edit{
+       margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+    body header {
+           flex-direction: column;
+    }
+    .nav-menu { 
+           display: flex;
+           flex-wrap: wrap;}
+    nav {
+           flex-direction: row;
+           width: 100%;
+    }
+}
+@media only screen and (max-width: 320px){
+   .subtitulo{font-size: medium;}
+   .toptitulo{font-size: medium;}
+   .paralax{height:350px ;}
+   footer{ font-size: medium;}
+   .nuestras-imagenes img{width: 100px;}
+   .productos-imagenes img{width: 100px;}
+   .iframe{}
+}

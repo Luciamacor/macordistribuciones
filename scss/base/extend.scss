@@ -1,0 +1,21 @@
+%disposicion{
+    display: flex;
+    flex-direction: column;
+}
+body{ 
+    @extend %disposicion;
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+}   
+footer{
+    @extend %disposicion;
+    justify-content: flex-end;
+    margin-top: auto;
+    font-size: 20px;
+    background-color: #05062E;
+    color: white;
+}
+.nuestras{
+    @extend %disposicion;
+    align-items: center;
+}

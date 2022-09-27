@@ -1,6 +1,8 @@
 @import"./base/variables.scss";
+@import"./base/extend.scss";
 @import"./componentes/global.scss";
 @import"./componentes/index.scss";
+
 * {
     margin: 0%;
     padding: 0%;
@@ -20,14 +22,7 @@ body {
         flex-direction: column;
         justify-content: center;
         margin: 20px;
-        h2{
-            display: flex;
-            justify-content: center;
-    }
 }
-}
-.alimenticia{ 
-    width: 100%;
 }
 .iframe{
      margin: 20px;}

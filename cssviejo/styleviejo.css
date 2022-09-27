@@ -60,7 +60,7 @@ footer {
 }
 
 .paralax {
-       background-image: url(./imagenes/bodega.jpg);
+       background-image: url(../imagenes/bodega.jpg);
        height: 600px;
 
        background-attachment: fixed;

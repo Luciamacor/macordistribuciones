@@ -22,6 +22,13 @@
 
     margin-bottom: 50px;
 }
+.paralax{ 
+    display: flex;
+    flex flex-direction:column;
+}
+.subtitulo {
+    justify-content: flex-end;
+}
 .nuestras {
     display: flex;
     flex-direction: column;

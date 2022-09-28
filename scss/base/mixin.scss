@@ -1,0 +1,7 @@
+@mixin flexro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nuestras-imagenes{@include flexro()}
+.nuestrasmarcas{@include flexro()}

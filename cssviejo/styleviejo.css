@@ -71,13 +71,6 @@ footer {
        margin-bottom: 50px;
 }
 
-.paralax {
-       display: flex;
-       flex-direction: column;
-       justify-content: space-between;
-}
-
-
 .nuestras {
        display: flex;
        flex-direction: column;

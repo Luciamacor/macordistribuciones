@@ -1,22 +1,48 @@
-*{
-  margin: 0%;
-  padding: 0%;
-}
-body {
-  font-family: "Open Sans", sans-serif;
+.nuestras, footer, body {
   display: flex;
   flex-direction: column;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
   min-height: 100vh;
 }
 
+footer {
+  justify-content: flex-end;
+  margin-top: auto;
+  font-size: 20px;
+  background-color: #05062E;
+  color: white;
+}
+
+.nuestras {
+  align-items: center;
+}
+
+.nuestras-imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nuestrasmarcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 header nav {
-  width: 100%;}
-header nav ul{ 
   width: 100%;
-  justify-content: flex-end;}
-
-
- .logonav {
+}
+header nav ul {
+  width: 100%;
+  justify-content: flex-end;
+}
+header nav .headernav {
+  background-color: #05062E;
+}
+header nav .logonav {
   width: 160px;
   height: 100%;
   display: inline;
@@ -46,17 +72,10 @@ header nav .divbarflex {
 footer {
   font-size: 20px;
   background-color: #05062E;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   margin-top: auto;
-}
-footer p {
-  margin-left: 20px; 
-  margin-right: 20px;
-  margin-top: 5px;
-  margin-bottom:  5px;
 }
 
 .toptitulo {
@@ -74,7 +93,7 @@ footer p {
 }
 
 .paralax {
-  background-image: url(../imagenes/bodega.jpg);
+  background-image: url(./imagenes/bodega.jpg);
   height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -82,6 +101,7 @@ footer p {
   background-size: cover;
   margin-bottom: 50px;
 }
+
 .nuestras {
   display: flex;
   flex-direction: column;
@@ -126,20 +146,19 @@ footer p {
 .productos .productos-imagenes img {
   width: 200px;
 }
-.divinstitucionaltexto{
 
-  background-color: #25ABB5;
+* {
+  margin: 0%;
+  padding: 0%;
 }
-.divinstitucionaltexto p{
-  font-size: x-large;
-  margin-left: 30px;
-  margin-top: 10px;
-}
-.divinstitucionaltexto h1{
-  margin-left: 30px;
-  margin-top: 30px;
 
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 .divinstitucional {
   display: flex;
   justify-content: center;
@@ -151,37 +170,8 @@ footer p {
   flex-direction: column;
   justify-content: center;
   margin: 20px;
-  text-align: center;
 }
 
-.divalimenticiatexto{
-
-  background-color: #25ABB5;
-}
-.divalimenticiatexto p{
-  font-size: x-large;
-  margin-left: 30px;
-  margin-top: 10px;
-}
-.divalimenticiatexto h1{
-  margin-left: 30px;
-  margin-top: 30px;
-
-}
-.divalimenticia{
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-  flex-wrap: wrap;
-}
-.divalimenticia div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-  text-align: center;
-}
-.alimenticia{width: 100%;}
 .iframe {
   margin: 20px;
 }
